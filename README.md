@@ -26,15 +26,19 @@ The example for this component will load a random NFT from the MekaVerse collect
 The root of the template contains 2 custom properties.
 
 - **ContractAddress**
+
   The contract address to look at when retrieving tokens.
 
 - **TokenID**
+
   The token ID to load.
 
 - **TotalTokens**
+
   The number of tokens in the collection. This is only needed if Random is enabled.
 
 - **Random**
+
   If enabled a random token from the collection will be retrieved and displayed.
 
 ## Learn More
