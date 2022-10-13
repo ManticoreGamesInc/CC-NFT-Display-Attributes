@@ -2,8 +2,8 @@
 
 # NFT Display Attributes
 
-[![Build Status](https://github.com/Bootcamp-NFT-Display-Attributes/workflows/CI/badge.svg)](https://github.com/Bootcamp-NFT-Display-Attributes/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Bootcamp-NFT-Display-Attributes?style=plastic)
+[![Build Status](https://github.com/CC-NFT-Display-Attributes/workflows/CI/badge.svg)](https://github.com/CC-NFT-Display-Attributes/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/CC-NFT-Display-Attributes?style=plastic)
 
 ![Preview](/Screenshots/Main.png)
 
