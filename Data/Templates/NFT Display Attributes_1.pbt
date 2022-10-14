@@ -1,12 +1,12 @@
 Assets {
-  Id: 12334057663728470171
+  Id: 4454253352573768065
   Name: "NFT Display Attributes"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 16928648490077019132
+      RootId: 7168000809252704677
       Objects {
-        Id: 16928648490077019132
+        Id: 7168000809252704677
         Name: "TemplateBundleDummy"
         Transform {
           Location {
@@ -21,12 +21,6 @@ Assets {
         }
         Folder {
           BundleDummy {
-            ReferencedAssets {
-              Id: 12578320240401189491
-            }
-            ReferencedAssets {
-              Id: 11542042296955416537
-            }
             ReferencedAssets {
               Id: 12847116113554750123
             }
@@ -2020,6 +2014,7 @@ Assets {
           AssetId: "None"
         }
       }
+      DirectlyPublished: true
       VirtualFolderPath: "NFT Display Attributes"
     }
     Assets {
@@ -2027,10 +2022,11 @@ Assets {
       Name: "README"
       PlatformAssetType: 3
       TextAsset {
-        Text: "--[[\r\n _   _ ______ _______   _____  _           _                       _   _        _ _           _            \r\n | \\ | |  ____|__   __| |  __ \\(_)         | |                 /\\  | | | |      (_) |         | |           \r\n |  \\| | |__     | |    | |  | |_ ___ _ __ | | __ _ _   _     /  \\ | |_| |_ _ __ _| |__  _   _| |_ ___  ___ \r\n | . ` |  __|    | |    | |  | | / __| \'_ \\| |/ _` | | | |   / /\\ \\| __| __| \'__| | \'_ \\| | | | __/ _ \\/ __|\r\n | |\\  | |       | |    | |__| | \\__ \\ |_) | | (_| | |_| |  / ____ \\ |_| |_| |  | | |_) | |_| | ||  __/\\__ \\\r\n |_| \\_|_|       |_|    |_____/|_|___/ .__/|_|\\__,_|\\__, | /_/    \\_\\__|\\__|_|  |_|_.__/ \\__,_|\\__\\___||___/\r\n                                     | |             __/ |                                                  \r\n                                     |_|            |___/                                                   \r\n-------------------------------------------------------------------------------------------------------------\r\n\r\nThe NFT Display Attributes component will display the attributes of an NFT in the UI. Attributes are a great way\r\nto create content in Core. You can read the attributes of an NFT and do something based on the attributes.\r\nFor example, creating an Axe where the handle, blade, and color are stored on the Blockchain as attributes.\r\n\r\nThe example for this componenent will load a random NFT from the MekaVerse collection, display the NFT image, \r\nand list all the attributes. What you do with those attributes is really down your imagination. Think of them\r\nas the DNA that describes how an object is made.\r\n\r\nhttps://opensea.io/collection/mekaverse\r\n\r\n-----------------------------------------------------------------------------------------------------------------\r\n\r\n==========\r\nHow to use\r\n==========\r\n\r\nThe root of the template contains 4 custom properties.\r\n\r\n- ContractAddress\r\n  The contract address to look at when retrieving tokens.\r\n\r\n- TokenID\r\n  The token ID to load.\r\n\r\n- TotalTokens\r\n  The amount of tokens in the collection. This is only needed if Random is enabled.\r\n\r\n- Random\r\n  If enabled, a random token from the collection will be retrieved and displayed.\r\n\r\n==========\r\nLearn More\r\n==========\r\n\r\nTo see how this component was created, you can read the tutorial:\r\n\r\nhttps://learn.coregames.com/courses/nft-generative-content/\r\n\r\n--]]\r\n"
+        Text: "--[[\r\n _   _ ______ _______   _____  _           _                       _   _        _ _           _\r\n | \\ | |  ____|__   __| |  __ \\(_)         | |                 /\\  | | | |      (_) |         | |\r\n |  \\| | |__     | |    | |  | |_ ___ _ __ | | __ _ _   _     /  \\ | |_| |_ _ __ _| |__  _   _| |_ ___  ___\r\n | . ` |  __|    | |    | |  | | / __| \'_ \\| |/ _` | | | |   / /\\ \\| __| __| \'__| | \'_ \\| | | | __/ _ \\/ __|\r\n | |\\  | |       | |    | |__| | \\__ \\ |_) | | (_| | |_| |  / ____ \\ |_| |_| |  | | |_) | |_| | ||  __/\\__ \\\r\n |_| \\_|_|       |_|    |_____/|_|___/ .__/|_|\\__,_|\\__, | /_/    \\_\\__|\\__|_|  |_|_.__/ \\__,_|\\__\\___||___/\r\n                                     | |             __/ |\r\n                                     |_|            |___/\r\n-------------------------------------------------------------------------------------------------------------\r\n\r\nThe NFT Display Attributes component will display the attributes of an NFT in the UI. Attributes are a great\r\nway to create content in Core. You can read the attributes of an NFT and do something based on the attributes.\r\nFor example, creating an Axe where the handle, blade, and color are stored on the Blockchain as attributes.\r\n\r\nThe example for this component will load a random NFT from the MekaVerse collection, display the NFT image,\r\nand list all the attributes. What you do with those attributes is down to your imagination. Think of\r\nthem as the DNA that describes how an object is made.\r\n\r\nhttps://opensea.io/collection/mekaverse\r\n\r\n-----------------------------------------------------------------------------------------------------------------\r\n\r\n==========\r\nHow to use\r\n==========\r\n\r\nThe root of the template contains 4 custom properties.\r\n\r\n- ContractAddress\r\n  The contract address to look at when retrieving tokens.\r\n\r\n- TokenID\r\n  The token ID to load.\r\n\r\n- TotalTokens\r\n  The number of tokens in the collection. This is only needed if Random is enabled.\r\n\r\n- Random\r\n  If enabled a random token from the collection will be retrieved and displayed.\r\n\r\n==========\r\nLearn More\r\n==========\r\n\r\nhttps://learn.coregames.com/courses/nft-generative-content/\r\n\r\n--]]\r\n"
         CustomParameters {
         }
       }
+      DirectlyPublished: true
       VirtualFolderPath: "NFT Display Attributes"
     }
     Assets {
@@ -2042,6 +2038,7 @@ Assets {
         CustomParameters {
         }
       }
+      DirectlyPublished: true
       VirtualFolderPath: "NFT Display Attributes"
     }
     Assets {
@@ -2095,10 +2092,10 @@ Assets {
     }
   }
   Marketplace {
-    Id: "7b806045d95c4f42a1d27070582179bc"
-    OwnerAccountId: "93d6eaf2514940a08c5481a4c03c1ee3"
-    OwnerName: "CommanderFoo"
+    Id: "530f49a6995e4ddba5772bd1d0e29123"
+    OwnerAccountId: "bd602d5201b04b3fbf7be10f59c8f974"
+    OwnerName: "CoreAcademy"
   }
-  SerializationVersion: 118
+  SerializationVersion: 119
 }
 IncludesAllDependencies: true
