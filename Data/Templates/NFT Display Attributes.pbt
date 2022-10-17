@@ -18,6 +18,7 @@ Assets {
         ParentId: 4781671109827199097
         ChildIds: 9242635243619737241
         ChildIds: 4338096055372772148
+        ChildIds: 13999617938113835946
         UnregisteredParameters {
           Overrides {
             Name: "cs:ContractAddress"
@@ -197,6 +198,7 @@ Assets {
         ChildIds: 7584440987206942205
         ChildIds: 11317659704803717553
         ChildIds: 2270887448777673386
+        ChildIds: 2755985186713930935
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -1879,6 +1881,185 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 2755985186713930935
+        Name: "Hide UI"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 11435416278792535662
+        ChildIds: 2174155008188316286
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Control {
+          Width: 174
+          Height: 50
+          UIX: -240
+          UIY: -20
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          IsHittable: true
+          Button {
+            FontColor {
+              A: 1
+            }
+            FontSize: 20
+            ButtonColor {
+              G: 0.0176419523
+              B: 0.104616478
+              A: 1
+            }
+            HoveredColor {
+              G: 0.0451448336
+              B: 0.267708302
+              A: 1
+            }
+            PressedColor {
+              G: 0.0451448336
+              B: 0.267708302
+              A: 1
+            }
+            DisabledColor {
+              G: 0.0176419392
+              B: 0.104616478
+              A: 0.458000034
+            }
+            Brush {
+              Id: 841534158063459245
+            }
+            IsButtonEnabled: true
+            ClickMode {
+              Value: "mc:ebuttonclickmode:default"
+            }
+            Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
+            ShadowColor {
+              A: 1
+            }
+            ShadowOffset {
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomright"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:bottomright"
+              }
+            }
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 2174155008188316286
+        Name: "Text"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2755985186713930935
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Control {
+          Width: 200
+          Height: 60
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          UseParentWidth: true
+          UseParentHeight: true
+          Text {
+            Label: "Hide UI [R]"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+            Size: 20
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            Font {
+              Id: 983079098072781120
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
+            ShadowColor {
+              A: 1
+            }
+            ShadowOffset {
+            }
+            OutlineColor {
+              A: 1
+            }
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 12623798783801921024
         Name: "NFT_Display_Attributes_Client"
         Transform {
@@ -1916,6 +2097,18 @@ Assets {
             Name: "cs:RefreshButton"
             ObjectReference {
               SubObjectId: 2270887448777673386
+            }
+          }
+          Overrides {
+            Name: "cs:UIContainer"
+            ObjectReference {
+              SubObjectId: 41813378993012699
+            }
+          }
+          Overrides {
+            Name: "cs:HideUI"
+            ObjectReference {
+              SubObjectId: 2755985186713930935
             }
           }
         }
@@ -1978,6 +2171,43 @@ Assets {
         }
         IsReplicationEnabledByDefault: true
       }
+      Objects {
+        Id: 13999617938113835946
+        Name: "NFT Display Attributes"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16309517152617765365
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        BindingSet {
+          BindingSetAsset {
+            Id: 11223120893904553678
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
     }
     Assets {
       Id: 7941814516466573755
@@ -2029,6 +2259,7 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 118
+  SerializationVersion: 119
+  DirectlyPublished: true
   VirtualFolderPath: "NFT Display Attributes"
 }
